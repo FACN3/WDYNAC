@@ -1,5 +1,5 @@
 
-# WDYNAC
+# WDYNAC:mouse:
 ## Why Do You Need a Carpet
 
 Your repo should contain a README file with these three points -
@@ -24,4 +24,6 @@ It will be viewable with and without javascript.
 HOW (describing the journey to completion)
 
 First. Seperate main goals into seperate issues and assign.
+
 Second. Once basic framework has been built, review and then discuss further teamwork possibilities. Either working on everything together, or seperate tasks into smaller issues and assign
+
