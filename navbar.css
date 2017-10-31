@@ -33,7 +33,7 @@
     transition: transform 0.35s;
 }
 
-.menu menu__mobile label.menu-toggle   {
+.menu .menu__mobile .menu__mobile__label   {
     position: absolute;
     right: -60px;
     width: 60px;
@@ -42,11 +42,15 @@
     display: block;
     padding: 0;
     text-indent: -9999px;
-    background: #fff
+    background: black
      url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)
       50% 50% / 25px 25px no-repeat;
 }
 
+.menu-checkbox:checked + 
+.menu{
+transform : translate3d(0, 0, 0);
+}
 
 
 
