@@ -1,7 +1,12 @@
 body {
     background-color: #154360;
-    align-content: center;
 }
-h1  {
+
+body h1  {
   color: white;
+  font-weight: bold;
+}
+
+#WDYNAC {
+  font-size: 450%;
 }
