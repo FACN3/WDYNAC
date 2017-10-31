@@ -9,8 +9,19 @@ The purpose of WDYNAC is to provide tailor made artisan carpet solutions to as w
 
 WHAT (describing your site)
 
-The website will be eye catching and brief, but it's main 
+The website will be eye catching and brief. It will contatin:
+
+A headline
+navbar (dektop and mobile specific)
+About us section
+Individual profiles
+Contact Form
+
+It will be viewable on mobile and desktop
+It will be viewable with and without javascript.
+
 
 HOW (describing the journey to completion)
 
-You may also add more ambitious features in the README which describes stretch goals. Feel free to add the user stories from this project guide into your README too.
+First. Seperate main goals into seperate issues and assign.
+Second. Once basic framework has been built, review and then discuss further teamwork possibilities. Either working on everything together, or seperate tasks into smaller issues and assign
