@@ -1,12 +1,13 @@
 body {
     background-color: #154360;
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica;
 }
 
 body h1  {
-  color: white;
-  font-weight: bold;
 }
 
-#WDYNAC {
+#BigTitle {
   font-size: 450%;
 }
