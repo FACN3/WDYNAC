@@ -23,5 +23,28 @@
 }
 
 .menu menu__mobile {
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 240px;
+    height: 100%;
+    transform: translate3d(-240px, 0, 0);
+    transition: transform 0.35s;
 }
+
+.menu menu__mobile label.menu-toggle   {
+    position: absolute;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+    line-height: 0px;    
+    display: block;
+    padding: 0;
+    text-indent: -9999px;
+    background: #fff;
+     url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)
+      50% 50% / 25px 25px no-repeat
+}
+
+
