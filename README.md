@@ -12,12 +12,19 @@ The purpose of WDYNAC is to provide tailor made artisan carpet solutions to as w
 The website will be eye catching and brief. It will contatin:
 
 A headline
+
 navbar (dektop and mobile specific)
+
 About us section
+
 Individual profiles
+
 Contact Form
 
+
+
 It will be viewable on mobile and desktop
+
 It will be viewable with and without javascript.
 
 
