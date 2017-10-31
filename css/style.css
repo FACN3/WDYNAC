@@ -12,3 +12,32 @@ body h1  {
 #BigTitle {
   font-size: 450%;
 }
+
+#FirstPage {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#SecondPage {
+  background-color: #022135;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#ThirdPage {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#ContactForm {
+  background-color: #022135;
+  margin-top: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
