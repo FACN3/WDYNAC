@@ -17,19 +17,12 @@ body h1  {
 #PageSize {
   margin-top: 10%;
   margin-bottom: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-#PageSize2 {
-  background-color: #022135;
-  margin-top: 10%;
-  margin-bottom: 10%;
   padding-top: 25%;
   padding-bottom: 25%;
 }
 
-#ThirdPage {
+#PageSize2 {
+  background-color: #022135;
   margin-top: 10%;
   margin-bottom: 10%;
   padding-top: 25%;
