@@ -1,43 +1,76 @@
 /*START OF NAVBAR CSS*/
 
 /* mobile */
-@media (max-width : 600px) {
- .menu__desktop{
-     display: none;
- }
+
+@media (max-width: 600px) {
+  .menu__desktop {
+    display: none;
+  }
+  p{
+    width: 80%;
+  }
 }
+
 /* desck-top */
-@media  (min-width : 601px) {
-   .menu__mobile{
-       display: none;
-   }
+
+@media (min-width: 601px) {
+  .menu__mobile {
+    display: none;
+  }
+  p{
+    width: 60%;
+  }
 }
+.background1{
+
+      background-image: url(circle.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 98%;
+      width: 100vw;
+      height: 100vw;
+      margin: 0 auto;
+      max-width: 990px;
+      max-height: 990px;
+      border-radius: 50%;
+      background-color: white;
+      position: relative;
+      /* margin: auto; */
+
+}
+p{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .menu__mobile__list {
   list-style-type: none;
+  margin-top: 3em;
 }
 
 .menu__mobile {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-    width: 240px;
-    height: 100%;
-    transform: translate3d(-240px, 0, 0);
-    transition: transform 0.35s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 200px;
+  height: 100%;
+  transform: translate3d(-200px, 0, 0);
+  transition: transform 0.35s;
 }
 
 .menu__mobile__toggle {
-    position: absolute;
-    right: -60px;
-    width: 60px;
-    height: 60px;
-    line-height: 0px;
-    display: block;
-    padding: 0;
-    text-indent: -9999px;
-    background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
+  position: absolute;
+  right: -60px;
+  width: 60px;
+  height: 60px;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+  background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
 }
+
 .menu__mobile ul li a, .menu__mobile ul li label {
   display: block;
   text-align: center;
@@ -45,57 +78,111 @@
   line-height: 60px;
   text-decoration: none;
   color: #000;
-
+  font-size: 2em;
+  margin: 4px 0px 0px -30px;
 }
+
 ul li a:hover, ul li label:hover {
   color: #666;
 }
+
 /* hide inputs */
+
 .menu__mobile__checkbox {
   display: none;
 }
 
 /* hide navigation icon for sublabels */
 
-
-
-.menu__mobile__checkbox:checked + .menu__mobile{
+.menu__mobile__checkbox:checked+.menu__mobile {
   transform: translate3d(0, 0, 0);
 }
+
 /*END OF NAVBAR CSS*/
 
 body {
-    background-color: #154360;
-    color: white;
-    font-weight: bold;
-    font-family: Lato;
-    margin: 0;
-    }
 
-body h1  {
+  color: white;
+  font-weight: bold;
+  font-family: Lato;
+  margin: 0;
+  text-align: center;
 }
 
-#BigTitle {
+.menu__desktop {
+  background-color: #fff;
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  max-height: 100%;
+  overflow: hidden;
+}
+.fixforh1margin{
+  margin:0px;
+  top: 50%;
+
+
+}
+
+.menu__desktop a {
+  color: #666;
+  line-height: 3rem;
+  float: right;
+  padding: 0 2rem 0 0;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.BigTitle {
   font-size: 450%;
 }
 
-#PageSize {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding-top: 25%;
-  padding-bottom: 25%;
+.header {
+  background-color: #154360;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+.header__title{
+  position: absolute;
+  top: 50%;
+left: 11%;
+right: 11%;
+
 }
 
-#PageSize2 {
+@media (min-width: 556px) {
+  .header__title{
+    top: 8%;
+  }
+}
+
+@media (min-width: 1125px) {
+  .header__title{
+    top: 25%;
+  }
+}
+
+.PageSize {
+  background-color: #154360;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.PageSize2 {
   background-color: #022135;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding-top: 25%;
-  padding-bottom: 25%;
+
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 100%;
 }
 
-#ContactForm {
-  margin-top: 10%;
+.ContactForm {
   padding-top: 10%;
   padding-bottom: 10%;
 }
