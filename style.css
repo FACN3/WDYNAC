@@ -118,6 +118,7 @@ body {
   position: fixed;
   max-height: 100%;
   overflow: hidden;
+  z-index: 1;
 }
 .fixforh1margin{
   margin:0px;
@@ -140,6 +141,10 @@ p {
   font-size: 1.5em;
   line-height: 1.5em;
 }
+label{
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
 
 .header__title__big {
   font-size: 450%;
@@ -158,18 +163,6 @@ left: 11%;
 right: 11%;
 
 }
-/*
-@media (min-width: 556px) {
-  .header__title{
-    top: 8%;
-  }
-}
-
-@media (min-width: 1125px) {
-  .header__title{
-    top: 25%;
-  }
-}*/
 
 .menu__deskp__size {
   background-color: #154360;
