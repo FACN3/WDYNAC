@@ -118,6 +118,7 @@ body {
   position: fixed;
   max-height: 100%;
   overflow: hidden;
+  z-index: 1;
 }
 .fixforh1margin{
   margin:0px;
